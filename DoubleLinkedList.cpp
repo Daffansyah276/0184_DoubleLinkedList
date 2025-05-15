@@ -101,6 +101,13 @@ public:
             return;
         }
 
+        //step 2: if node is at the beginning 
+        if (current == START)
+        {
+            START = current->next; // step 2a: START = START.next
+                START->prev = NULL;  // step 2b: START = START.prev
+        }
+
       
     }
 
