@@ -130,6 +130,9 @@ public:
             cout << "\nList is empty " << endl;
             return;
         }
+
+        //step 1: Mark first node as currentNode 
+        Node *currentNode = START;
         
     }
 
