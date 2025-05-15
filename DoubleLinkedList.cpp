@@ -108,10 +108,12 @@ public:
                 START->prev = NULL;  // step 2b: START = START.prev
         }
 
-      
-    }
+        else
+        {
+            // step 3 : Link previos node to next of current 
+            current->prev->next = current->next;
 
-
+        }
 
 
 };
