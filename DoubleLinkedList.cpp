@@ -15,12 +15,34 @@ class DoubleLinkedList
 private:
     Node *START;
     
-public;
+public:
     DoubleLinkedList()
     {
         START = NULL;
 
     }
 
-   
+    void addnote()
+    {
+        int nim;
+        string nm;
+        cout << "/nEnter the roll number of the student: ";
+        cin >> nim;
+
+      
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+    }
 };
